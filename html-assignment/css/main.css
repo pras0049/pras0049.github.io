@@ -1,0 +1,39 @@
+body {
+    color:blue;
+    font-size: 16px;
+}
+h1{
+    color:aqua;
+}
+p{
+    background-color:lightcoral;
+}
+h1,h2,h3,h4,h5{
+    text-align: center;
+    text-decoration: underline;
+}
+article{
+    background-color: lightgoldenrodyellow;
+    align-items: end;
+
+}
+.site-title{
+    stroke: antiquewhite;
+}
+#my-image{
+    box-decoration-break: slice;
+}
+hobbies-list{
+    list-style-type: square;
+}
+nav{
+    list-style-type: none;
+    padding-bottom: 0%;
+}
+nav a{
+    text-align: justify;
+    text-decoration: overline;
+    display: inline-block;
+    background-attachment: fixed;
+    border: 0cap;
+}
