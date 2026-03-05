@@ -1,0 +1,155 @@
+/* Reset some default browser styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header,
+main,
+footer{
+    width:900px;
+    margin:0 auto;
+    background-color:pink;
+}
+/* Page background */
+body{
+    background-color:pink;
+}
+
+/* Main container */
+main{
+    width:900px;
+    margin:auto;
+    background-color:pink;
+    padding:20px;
+}
+
+/* Header image */
+header img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+header{
+    position: relative;
+}
+header h1{
+    position: absolute;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-top: 10%;
+    font-style: italic;
+    color: white;
+}
+/* Navigation bar */
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    background:pink;
+    padding:15px 0;
+    border-bottom:2px solid #999;
+}
+
+nav ul li{
+    border-right:1px solid pink;
+    padding:0 40px;
+}
+
+nav ul li:last-child{
+    border-right:none;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+/* Headings */
+h2{
+    margin-top:25px;
+    margin-bottom:10px;
+}
+
+/* Image inside content */
+main img{
+    width:200px;
+    float:left;
+    margin-right:15px;
+    margin-bottom:10px;
+}
+
+/* Paragraph */
+p{
+    line-height:1.5;
+    margin-bottom:15px;
+}
+
+/* List */
+ul{
+    margin-left:25px;
+    margin-bottom:20px;
+}
+
+/* Contact form box */
+form{
+    border:1px solid pink;
+    padding:20px;
+    margin-top:10px;
+}
+
+/* Labels */
+label{
+    display:block;
+    margin-top:10px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"]{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    margin-bottom:10px;
+    border:1px solid pink;
+}
+
+/* Message box */
+input[type="message"]{
+    width:100%;
+    height:100px;
+    padding:8px;
+    border:1px solid pink;
+}
+
+/* Radio buttons */
+input[type="radio"]{
+    margin-right:5px;
+}
+
+/* Button */
+button{
+    margin-top:10px;
+    padding:8px 15px;
+    border:1px solid red;
+    background:pink;
+    cursor:pointer;
+}
+
+/* Footer */
+footer{
+    width:900px;
+    margin:auto;
+    text-align:right;
+    padding:10px;
+    background:pink;
+}
+.contact {
+    border: 1px solid;
+    border-color: black;
+    padding:10px;
+    margin:10px;
+}
